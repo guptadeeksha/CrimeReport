@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:id="@+id/titlee"
+          android:layout_width="229dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="100dp"
+          android:text="Most Wanted Criminals"
+          android:textSize="20dp" />
+
+      <ImageView
+          android:id="@+id/lakhvi"
+          android:layout_width="106dp"
+          android:layout_height="146dp"
+          android:layout_alignBottom="@+id/titlee"
+          android:layout_marginBottom="-167dp"
+          android:src="@drawable/lakhvi" />
+
+      <ImageView
+          android:id="@+id/azhar"
+          android:layout_width="119dp"
+          android:layout_height="164dp"
+          android:layout_alignBottom="@id/lakhvi"
+          android:layout_marginBottom="-165dp"
+          android:src="@drawable/azhar" />
+
+      <ImageView
+          android:id="@+id/muhammad"
+          android:layout_width="148dp"
+          android:layout_height="114dp"
+          android:layout_alignBottom="@+id/azhar"
+          android:layout_marginBottom="-117dp"
+          android:src="@drawable/muhammad" />
+
+      <ImageView
+          android:id="@+id/salah"
+          android:layout_width="142dp"
+          android:layout_height="113dp"
+          android:layout_alignBottom="@id/muhammad"
+          android:layout_marginBottom="-107dp"
+          android:src="@drawable/salahuddin" />
+
+      <ImageView
+          android:id="@+id/dawood"
+          android:layout_width="164dp"
+          android:layout_height="159dp"
+          android:layout_alignBottom="@id/salah"
+          android:layout_marginBottom="-153dp"
+          android:src="@drawable/dawood" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/lakhvi"
+          android:layout_alignBottom="@id/titlee"
+          android:layout_marginStart="44dp"
+          android:layout_marginEnd="-144dp"
+          android:layout_marginRight="-188dp"
+          android:layout_marginBottom="-95dp"
+          android:layout_toEndOf="@id/lakhvi"
+          android:text="Zaki- Ur Rehman Lakhvi" />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/azhar"
+          android:layout_alignBottom="@id/lakhvi"
+          android:layout_marginStart="44dp"
+          android:layout_marginEnd="-144dp"
+          android:layout_marginRight="-188dp"
+          android:layout_marginBottom="-95dp"
+          android:layout_toEndOf="@id/azhar"
+          android:text="Masood Azhar" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/muhammad"
+          android:layout_alignBottom="@id/azhar"
+          android:layout_marginStart="44dp"
+          android:layout_marginEnd="-144dp"
+          android:layout_marginRight="-143dp"
+          android:layout_marginBottom="-77dp"
+          android:layout_toEndOf="@id/muhammad"
+          android:text="Hafiz Muhammad Saeed" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/salah"
+          android:layout_alignBottom="@id/muhammad"
+          android:layout_marginStart="44dp"
+          android:layout_marginEnd="-144dp"
+          android:layout_marginRight="-143dp"
+          android:layout_marginBottom="-64dp"
+          android:layout_toEndOf="@id/salah"
+          android:text="Syed Salahuddin" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignRight="@+id/dawood"
+          android:layout_alignBottom="@id/salah"
+          android:layout_marginStart="44dp"
+          android:layout_marginEnd="-144dp"
+          android:layout_marginRight="-188dp"
+          android:layout_marginBottom="-95dp"
+          android:layout_toEndOf="@id/dawood"
+          android:text="DAwood Ibrahim Kaskar" />
+    </RelativeLayout>
+  </LinearLayout>
+</ScrollView>
